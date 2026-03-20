@@ -1,0 +1,12 @@
+{
+  "id": "litra",
+  "name": "Litra",
+  "description": "Control your Logitech Litra light — toggle power, adjust brightness and color temperature from the bar. Requires litra-cli: https://github.com/vkolobara/litra-cli",
+  "version": "1.0.0",
+  "author": "vkolobara",
+  "icon": "light_mode",
+  "type": "widget",
+  "component": "./Widget.qml",
+  "settings": "./Settings.qml",
+  "permissions": ["settings_read", "settings_write"]
+}
